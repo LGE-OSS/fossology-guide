@@ -5,19 +5,17 @@ published: true
 # Clearing
 
 ```note
-- FOSSology는 분석 대상 Software를 업로드하면서 바로 Scanning을 수행하지만 각 파일들은 Multi/Dual License 이거나 혹은 Scanning 결과에 False Alarm이 있을 수 있습니다.
-- 이에, Clearing을 통해 Scanning 결과를 정제하여 보다 더 정확한 정보로 정리할 수 있습니다.
+- 업로드 되면서 Scan 된 결과에는 Dual License인 파일이나, False Alarm인 파일들이 있을 수 있습니다.
+- 이에, Clearing을 통해 Scanning 결과를 정제하여 보다 더 정확한 정보를 얻을 수 있습니다.
 ```
 
 ## Clearing의 필요성
 
-### Multi License와 Dual License
+### Dual License
 
-FOSSology는 String Search를 기반으로 하기에, 하나의 파일에 여러 License의 Keyword가 발견되면, 이를 모두 표기해줍니다. 이러한 경우 사용자는 해당 파일이 Multi License인지 아니면 Dual License인지 판단하여 적절히 Identify 하여야 합니다.
+FOSSology는 String Search를 기반으로 하기에, 하나의 파일에 여러 License의 Keyword가 발견되면, 이를 모두 표기해줍니다. 이렇게 Dual License된 파일의 경우 사용자는 해당 파일에 검출 결과 중 사용할 License로 적절히 Identify 해야 합니다.
 
-- Multi License : 한 OSS 혹은 File에 여러 License가 적용된 경우. (e.g. The Open Group License AND X11 인 xinit의 사용을 위해서는 The Open Group License와 X11의 요구를 모두 충족해야 함)
-
-- Dual License : 한 OSS 혹은 File이 여러 License 중 하나로 사용할 수 있는 경우. (e.g. BSD-3-Clause OR GPL-2.0인 libcap의 사용을 위해서는 BSD-3-Clause와 GPL-2.0 둘 중 하나의 요구만 충족하면 됨)
+- Dual License : 한 File을 여러 License 중 하나로 사용할 수 있는 경우. (e.g. BSD-3-Clause OR GPL-2.0인 libcap은 사용자가 BSD-3-Clause와 GPL-2.0 두 License 중 하나를 선택하여 사용할 수 있음)
 
 ### False Alarm
 
@@ -81,7 +79,7 @@ License Browse에서는 각 파일의 Clearing 상태를 확인할 수 있습니
 ### License List
 
 ```note
-다운로드 받은 License List (CSV 파일)에서 각 파일별 Clearing 결과를 확인할 수 있습니다. ([4. OSS List 작성](4_oss-list.html) 참고)
+다운로드 받은 License List (CSV 파일)에서 각 파일별 Clearing 결과를 확인할 수 있습니다. ([4. OSS List 작성](4_oss-report.html) 참고)
 - file path : 각 파일의 Path
 - scan results : FOSSology가 검출한 License
 - concluded results : Clearing 결과
