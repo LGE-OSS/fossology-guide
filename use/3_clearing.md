@@ -79,7 +79,7 @@ License Browse에서는 각 파일의 Clearing 상태를 확인할 수 있습니
 ### License List
 
 ```note
-다운로드 받은 License List (CSV 파일)에서 각 파일별 Clearing 결과를 확인할 수 있습니다. ([4. OSS List 작성](4_oss-report.html) 참고)
+다운로드 받은 License List (CSV 파일)에서 각 파일별 Clearing 결과를 확인할 수 있습니다. ([4. OSS Report 작성](4_oss-report.html) 참고)
 - file path : 각 파일의 Path
 - scan results : FOSSology가 검출한 License
 - concluded results : Clearing 결과
