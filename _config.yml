@@ -1,0 +1,19 @@
+base_url: /fossology-guide
+title: FOSSology
+lang: en
+description: Fossology Korean Guide
+
+remote_theme: LGE-OSS/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
