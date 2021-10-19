@@ -12,9 +12,9 @@ FOSSology는 String Search를 기반으로 한 Open Source 분석 Web Server 어
   - 파일 내에 특정 키워드가 포함되면 False Alarm이 발생합니다. 예를 들어 Source File 내 함수 이름이 GPL() 이거나, JPG등 Resource Data 내 우연히 GPL 이라는 String이 존재할 경우 해당 File을 GPL로 판단합니다.
 
 ## 관련 링크
-- 홈페이지 : [https://www.fossology.org/get-started/](https://www.fossology.org/get-started/)
+- 홈페이지 : [https://www.fossology.org](https://www.fossology.org)
 - 배포처 : [https://github.com/fossology/fossology](https://github.com/fossology/fossology)
-- 공식 가이드 : [https://www.fossology.org/get-started/](https://www.fossology.org/get-started/)
+- 공식 가이드 : [https://www.fossology.org/get-started](https://www.fossology.org/get-started)
 - 개발자 가이드 : [https://github.com/fossology/fossology/wiki](https://github.com/fossology/fossology/wiki)
 
 # License
